@@ -1,0 +1,5 @@
+print("Hallo WI, hallo DS")
+print("2 + 2 =", 2 + 2)
+print("PI is ", 3.14)
+print("Hallo" + "Welt")
+print("Hallo", "Welt")
