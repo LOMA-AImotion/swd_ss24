@@ -1,4 +1,4 @@
-3
+4
 Which of the following are the two main parts of every function in Python?
 The function signature and the function corpus
 The function head and the function tail
@@ -14,3 +14,8 @@ A Python function can return only a single value.
 CORRECT:A function can take an unlimited number of arguments.
 A Python function doesn’t return anything unless and until you add a return statement.
 A Python function cannot return multiple values.
+Ein Partial-Objekt speichert Argumente bis zum nächsten Aufruf.
+CORRECT:Ja
+Nein, dafür braucht man Lambda-Funktionen
+Nein, dafür brauchst du globale Variablen
+Nein, hab kein Bock

@@ -38,7 +38,6 @@ def read_quiz_file(dateiname : str) -> list:
     # Jetzt enthält die Liste "words" alle Wörter aus der Datei
     return quiz_fragen
 
-
 if __name__ == "__main__":
     quiz_file_name = os.path.join(os.path.dirname(__file__), 'quiz_functions.txt')
     quizzes = read_quiz_file(quiz_file_name)
