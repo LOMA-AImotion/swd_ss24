@@ -31,10 +31,12 @@ class TkinterFeedbacker(Feedbacker):
     def negative(self, message: str) -> None:
         tkinter.messagebox.showerror("THI-SWD", message)
 
+    def neutral_feedback(self, message: str) -> None:
+        pass
 
 if __name__ == "__main__":
     f:Feedbacker = None
-    use_tkinter = False
+    use_tkinter = True
     if use_tkinter:
         f = TkinterFeedbacker()
     else:
